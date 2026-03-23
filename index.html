@@ -1,18 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ORI Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body style="background:black; color:white; text-align:center; font-family:sans-serif;">
+<body class="bg-black text-white">
 
-  <h1>ORI Tech</h1>
-  <p>Servicio técnico en ComodoroR Rivadavia</p>
+  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+    <img src="logo.png" alt="OriTech" class="h-10">
 
-  <img src="imagen.jpg" width="300">
+    <a href="https://wa.me/" class="rounded-xl bg-[#D68A4A] px-4 py-2 text-sm font-semibold text-black">
+      Contactar
+    </a>
+  </header>
 
-  <p>Reparación de PC | TV | Redes</p>
+  <main>
 
-  <a href="https://wa.me/5492974376626">WhatsApp</a>
+    <div class="w-full">
+      <img src="Fondo.png.png" class="w-full h-56 sm:h-72 object-cover">
+    </div>
+
+    <section class="mx-auto max-w-6xl px-6 py-16">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl font-bold sm:text-5xl">
+          Servicio técnico para PC, notebooks y televisores.
+        </h1>
+        <p class="mt-5 text-white/70">
+          Reparación, mantenimiento, software, redes y diagnóstico técnico.
+        </p>
+        <div class="mt-8">
+          <a href="#servicios" class="rounded-xl bg-[#D68A4A] px-5 py-3 text-sm font-semibold text-black">
+            Ver servicios
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="border-t border-white/10 px-6 py-16">
+      <div class="mx-auto max-w-6xl">
+        <h2 class="text-3xl font-bold">Servicios</h2>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">01</div>
+            <h3>Reparación de PC</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">02</div>
+            <h3>Reparación de TV</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">03</div>
+            <h3>Limpieza y mantenimiento</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">04</div>
+            <h3>Eliminación de virus</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">05</div>
+            <h3>Recuperación de datos</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">06</div>
+            <h3>Diagnóstico avanzado</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">07</div>
+            <h3>Servicio a domicilio</h3>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 p-5">
+            <div class="mb-4 text-[#D68A4A] font-bold">08</div>
+            <h3>Redes e instalación</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-6 py-16">
+      <div class="rounded-2xl border border-white/10 p-8">
+        <h2 class="text-2xl font-bold">Contacto</h2>
+        <p class="mt-3 text-white/70">
+          Escríbenos por WhatsApp para consultar tu caso.
+        </p>
+        <a href="https://wa.me/" class="mt-6 inline-block rounded-xl bg-[#D68A4A] px-5 py-3 text-black">
+          HABLAR POR WHATSAPP
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/10 px-6 py-12">
+    <div class="mx-auto max-w-6xl">
+      <div class="rounded-2xl border border-[#D68A4A]/30 bg-[#D68A4A]/10 p-6 flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
+        <img src="logo.png" class="h-12">
+
+        <div class="flex gap-3">
+          <a href="#" class="px-4 py-2 border border-[#D68A4A] rounded-xl">Facebook</a>
+          <a href="#" class="px-4 py-2 border border-[#D68A4A] rounded-xl">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
